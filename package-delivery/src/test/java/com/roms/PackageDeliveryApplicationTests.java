@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import com.roms.packagingdelivery.service.PackingDeliveryService;
-import com.roms.packagingdelivery.controller.PackageDeiveryController;
+import com.roms.packagingdelivery.controller.PackageDeliveryController;
 
 
 @SpringBootTest
@@ -18,7 +18,7 @@ class PackageDeliveryApplicationTests {
 	   private PackingDeliveryService service;
 	   
 	   @Autowired
-	   PackageDeiveryController deliveryController;
+	   PackageDeliveryController deliveryController;
 
 	   @Test
 	   void whenComponentTypeIsProvidedThenRetrievedPackageAndDeliveryIsCorrect() {

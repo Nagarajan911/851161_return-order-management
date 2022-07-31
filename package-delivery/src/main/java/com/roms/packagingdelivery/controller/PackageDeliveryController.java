@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.roms.packagingdelivery.service.PackingDeliveryService;
 
 @RestController
-public class PackageDeiveryController {
+public class PackageDeliveryController {
 	
 	@Autowired
 	public PackingDeliveryService packingDeliveryService;
